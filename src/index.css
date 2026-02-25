@@ -14,6 +14,7 @@
   --color-card:#16161f;
   --color-border:#2a2a3a;
   --color-accent:#5bffc3;
+  --color-accent2: #ff6b6b;
   --color-accent3: #ffd166;
   --color-text: #e8e8f0;
   --color-muted: #6a6a8a;
@@ -48,6 +49,10 @@ button{
   cursor: none !important;
 }
 
+.href{
+  cursor: none !important;
+}
+
 @keyframes gridshift {
     0% {
         transform: translateY(0);
@@ -70,4 +75,16 @@ button{
         transform: scale(1.1);
         opacity: 1;
     }
+}
+
+@keyframes fadeup {
+  from{
+    opacity: 0;
+    transform: translateY(24px);
+  }
+
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
