@@ -1,5 +1,3 @@
-import { useState } from "react"
-
 const Items =[
     'useState', 'useEffect', 'Components', 'Props', 'Hooks',
     'React Router', 'Context API', 'useReducer', 'Tailwind CSS',
