@@ -3,7 +3,7 @@ import '../index.css'
 const Hero = () => {
   return (
     
-    <section className="min-h-screen flex flex-col justify-center border-2 border-white px-10 pt-30 pb-20 relative overflow-hidden">
+    <section className="min-h-screen flex flex-col justify-center  px-12 pt-30 pb-20 relative overflow-hidden">
         <div 
             className="animate-[gridshift_20s_linear_infinite]"
             style={{
@@ -22,7 +22,7 @@ const Hero = () => {
         </div>
 
         <div 
-            className='absolute h-100 w-100 rounded-full pointer-events-none animate-[orbpulse_8s_infinite_reverse] ease-in-out -bottom-12 left-[10%]'
+            className='absolute h-100 w-100 rounded-full pointer-events-none animate-[orbpulse_8s_infinite_reverse] ease-in-out -bottom-12 left-[20%]'
             style={{
                 background: 'radial-gradient(circle, rgba(255,107,107,0.08) 0%, transparent 70%)',
             }}>
@@ -30,20 +30,20 @@ const Hero = () => {
         
         <div className='relative'>
             <div className='font-dm-mono text-(--color-accent) text-[11.52px] text-accent tracking-[0.15em] uppercase mb-6 opacity flex items-center gap-2.5'>
-                <div className='h-0.5 w-10 bg-(--color-accent)'></div>
+                <div className='h-px w-8 bg-(--color-accent)'></div>
                 Interactive React Curriculum
             </div>
 
-            <h1 className='font-syne text-(--color-text) font-extrabold leading-[0.95] tracking-tighter max-w-[14ch] text-[clamp(3.2rem,8vw,7rem)]'>
+            <h1 className='font-syne text-(--color-text) font-extrabold leading-[0.95] tracking-tight max-w-[14ch] text-[clamp(3.2rem,8vw,7rem)]'>
                 Stop{' '}
                 <span className='relative text-(--color-muted)'>
-                    Watching
+                    watching
                     <div 
                         className='absolute left-0 top-1/2 h-0.75 w-full bg-(--color-accent2) -translate-y-1/2'>
                     </div>
                 </span>
                 <br/> Start 
-                <span className='text-(--color-accent)'> buiiding.</span>
+                <span className='text-(--color-accent)'> building.</span>
             </h1>
 
             <p 
@@ -101,7 +101,7 @@ const Hero = () => {
 
                 <div className='font-dm-mono text-[0.72rem] text-(--color-muted)'>
                     <strong 
-                        className='text-(--color-text)'>4,200+</strong> beginners learning react now
+                        className='text-(--color-text)'>4,200+</strong> beginners learning React now
                 </div>
             </div>
         </div> 
