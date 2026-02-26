@@ -29,12 +29,12 @@ const Hero = () => {
         </div>
         
         <div className='relative'>
-            <div className='font-dm-mono text-(--color-accent) text-[11.52px] text-accent tracking-[0.15em] uppercase mb-6 opacity flex items-center gap-2.5'>
+            <div className='font-dm-mono text-(--color-accent) text-[11.52px] text-accent tracking-[0.15em] uppercase mb-6  flex items-center gap-2.5 animate-[fadeup_0.6s_0.2s_ease_forwards] opacity-0'>
                 <div className='h-px w-8 bg-(--color-accent)'></div>
                 Interactive React Curriculum
             </div>
 
-            <h1 className='font-syne text-(--color-text) font-extrabold leading-[0.95] tracking-tight max-w-[14ch] text-[clamp(3.2rem,8vw,7rem)]'>
+            <h1 className='font-syne text-(--color-text) font-extrabold leading-[0.95] tracking-tight max-w-[14ch] text-[clamp(3.2rem,8vw,7rem)] animate-[fadeup_0.7s_0.35s_ease_forwards] opacity-0'>
                 Stop{' '}
                 <span className='relative text-(--color-muted)'>
                     watching
@@ -47,15 +47,12 @@ const Hero = () => {
             </h1>
 
             <p 
-                className='text-(--color-muted) max-w-120 leading-[1.7] mt-7 text-[17.6px] font-dm-sans'
-                style={{ 
-                    animation: 'fadeUp 0.7s 0.5s ease forwards' 
-                    }}>
+                className='text-(--color-muted) max-w-120 leading-[1.7] mt-7 text-[17.6px] font-dm-sans opacity-0 animate-[fadeup_0.7s_0.5s_forwards]'>
                     ReactLab turns React concepts into real projects. Write code directly in your browser, get
                     instant feedback, and build a portfolio while you learn.
             </p>
 
-            <div className='flex gap-4 items-center mt-11'>
+            <div className='flex gap-4 items-center mt-11 opacity-0 animate-[fadeup_0.7s_0.65s_forwards]'>
                 <a 
                     href='#'
                     className='font-dm-mono text-[0.82rem] font-medium bg-(--color-accent) text-black px-8 py-3.5 rounded tracking-wider inline-flex hover:shadow-[0_12px_40px_rgba(91,255,195,0.3)] transition-all duration-200 hover:-translate-y-0.5'
@@ -78,7 +75,7 @@ const Hero = () => {
                 </a>
             </div>
 
-            <div className='flex items-center gap-5 mt-16'>
+            <div className='flex items-center gap-5 mt-16 opacity-0 animate-[fadeup_0.7s_0.8s_forwards]'>
                 <div className='flex'>
                     {[
                         ['JK', '#5bffc3'],
@@ -101,7 +98,7 @@ const Hero = () => {
 
                 <div className='font-dm-mono text-[0.72rem] text-(--color-muted)'>
                     <strong 
-                        className='text-(--color-text)'>4,200+</strong> beginners learning React now
+                        className='text-(--color-text)'>4,200+</strong> beginners learning React right now
                 </div>
             </div>
         </div> 
