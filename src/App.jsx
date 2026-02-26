@@ -1,4 +1,5 @@
 import './App.css'
+import CodePreview from './Components/CodePreview'
 import CustomCusor from './Components/CustomCusor'
 import Features from './Components/Features'
 import Hero from './Components/Hero'
@@ -15,6 +16,7 @@ function App() {
       <Hero />
       <Ticker />
       <Features />
+      <CodePreview />
     </div>
   )
 }
