@@ -3,6 +3,7 @@ import CodePreview from './Components/CodePreview'
 import CTA from './Components/CTA'
 import CustomCusor from './Components/CustomCusor'
 import Features from './Components/Features'
+import Footer from './Components/Footer'
 import Hero from './Components/Hero'
 import NavBar from './Components/NavBar'
 
@@ -21,6 +22,7 @@ function App() {
       <CodePreview />
       
       <CTA />
+      <Footer />
     </div>
   )
 }
