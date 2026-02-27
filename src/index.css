@@ -109,3 +109,35 @@ button{
         transform: translateY(0);
     }
 }
+
+.k {
+    color: #ff79c6;
+}
+
+.fn {
+    color: #50fa7b;
+}
+
+.str {
+    color: #f1fa8c;
+}
+
+.cm {
+    color: #6272a4;
+}
+
+.tag {
+    color: #ff79c6;
+}
+
+.attr {
+    color: #50fa7b;
+}
+
+.val {
+    color: #f1fa8c;
+}
+
+.comp {
+    color: #8be9fd;
+}
