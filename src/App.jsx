@@ -7,8 +7,8 @@ import Footer from './Components/Footer'
 import Hero from './Components/Hero'
 import NavBar from './Components/NavBar'
 import Price from './Components/Price'
-
 import Ticker from './Components/Ticker'
+import FAQ from './Components/FAQ'
 
 function App() {
 
@@ -22,6 +22,7 @@ function App() {
       <Features />
       <CodePreview />
       <Price />
+      <FAQ />
       <CTA />
       <Footer />
     </div>
